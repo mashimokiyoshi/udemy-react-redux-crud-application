@@ -5,9 +5,14 @@ class App extends Component {
     return (
       <React.Fragment>
         <label htmlFor="bar">bar</label>
-        <input type="text" onChange={() => {console.log("I am clicked")}}
+        <input
+          type="text"
+          onChange={() => {
+            console.log('I am clicked');
+          }}
+        />
       </React.Fragment>
-    )
+    );
   }
 }
 
